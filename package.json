@@ -1,0 +1,29 @@
+{
+  "name": "webapi-iv-challenge",
+  "version": "1.0.0",
+  "description": "In this challenge, you will **deploy** an API of your choosing to `heroku`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahfranco/webapi-iv-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noahfranco/webapi-iv-challenge/issues"
+  },
+  "homepage": "https://github.com/noahfranco/webapi-iv-challenge#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "gitignore": "^0.6.0",
+    "helmet": "^3.21.1",
+    "node": "^12.11.0",
+    "nodemon": "^1.19.3"
+  }
+}
